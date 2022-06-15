@@ -1,5 +1,7 @@
+import { PageView } from "./Components/PageView/PageView";
+
 function App() {
-  return <div className="App"></div>;
+  return <PageView />;
 }
 
 export default App;

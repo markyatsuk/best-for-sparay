@@ -1,0 +1,13 @@
+.main {
+  padding: 50px 0;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 200px;
+}
+.product {
+  border: 1px black solid;
+  width: 150px;
+  height: 250px;
+}
+/*# sourceMappingURL=Products.min.css.map */
