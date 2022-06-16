@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/best-for-sparay/static/css/main.3a7dfaec.css",
-    "main.js": "/best-for-sparay/static/js/main.51d3b0a7.js",
+    "main.js": "/best-for-sparay/static/js/main.bf106c57.js",
     "index.html": "/best-for-sparay/index.html",
     "main.3a7dfaec.css.map": "/best-for-sparay/static/css/main.3a7dfaec.css.map",
-    "main.51d3b0a7.js.map": "/best-for-sparay/static/js/main.51d3b0a7.js.map"
+    "main.bf106c57.js.map": "/best-for-sparay/static/js/main.bf106c57.js.map"
   },
   "entrypoints": [
     "static/css/main.3a7dfaec.css",
-    "static/js/main.51d3b0a7.js"
+    "static/js/main.bf106c57.js"
   ]
 }
