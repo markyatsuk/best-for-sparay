@@ -1,4 +1,10 @@
 header {
   background-color: #9b0f0f;
 }
+.container.container--header {
+  padding: 0 50px;
+}
+.logo-wrapper {
+  width: 120px;
+}
 /*# sourceMappingURL=Header.min.css.map */

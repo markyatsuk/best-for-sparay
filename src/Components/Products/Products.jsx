@@ -1,14 +1,16 @@
 import "./Products.scss";
-function RenderProducts() {
+import RenderProducts from "./RenderProducts";
+
+function Products({ products }) {
   return (
     <main className="main">
       <div className="container">
-        <div className="product">
-          <ul></ul>
-        </div>
+        <ul className="product-list">
+          <RenderProducts products={products} />
+        </ul>
       </div>
     </main>
   );
 }
 
-export { RenderProducts };
+export { Products };

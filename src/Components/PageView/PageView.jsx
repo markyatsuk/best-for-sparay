@@ -1,12 +1,12 @@
-import { RenderHeader } from "../Header/Header";
-import { RenderProducts } from "../Products/Products";
+// import { RenderHeader } from "../Header/Header";
+// import { RenderProducts } from "../Products/Products";
+
 function PageView() {
-  return (
-    <>
-      <RenderHeader />
-      <RenderProducts />
-    </>
-  );
+  return;
+  // <>
+  //   <RenderHeader />
+  //   <RenderProducts />
+  // </>
 }
 
 export { PageView };

@@ -1,15 +1,20 @@
 import "./Header.scss";
-import logo from "./logo.png";
+import logo from "../../Images/logo.png";
+import { Link } from "react-router-dom";
 function RenderHeader() {
   return (
     <header>
-      <a href="ds">
-        <img src={logo} alt="" />
-      </a>
-      <form action="submit">
-        <input type="text" />
-        <button type="submit">Пошук</button>
-      </form>
+      <div className="container container--header">
+        <Link to="/home">
+          <div className="logo-wrapper">
+            <img src={logo} alt="" />
+          </div>
+        </Link>
+        <form action="submit">
+          <input type="text" />
+          <button type="submit">Пошук</button>
+        </form>
+      </div>
     </header>
   );
 }

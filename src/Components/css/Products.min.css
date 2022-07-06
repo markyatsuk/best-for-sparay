@@ -1,13 +1,29 @@
+li {
+  list-style-type: none;
+}
 .main {
   padding: 50px 0;
 }
-.container {
-  margin: 0 auto;
-  padding: 0 200px;
-}
 .product {
   border: 1px black solid;
-  width: 150px;
-  height: 250px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product__item {
+  flex-basis: calc((100% - 210px) / 7);
+  border: 1px black solid;
+  margin-bottom: 20px;
+}
+.product__item:not(:nth-child(7n)) {
+  margin-right: 30px;
+}
+.productName {
+  color: black;
+  text-align: center;
+}
+.productLink {
+  text-decoration: none;
 }
 /*# sourceMappingURL=Products.min.css.map */
