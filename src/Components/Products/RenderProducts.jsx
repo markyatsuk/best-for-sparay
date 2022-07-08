@@ -8,13 +8,29 @@ function RenderProducts({ products }) {
             to={product.id + "/" + product.linkPath}
             className="productLink"
           >
-            <img src={product.src} alt={product.name} className="productImg" />
-            <p className="productName">{product.name}</p>
+            <div className="img-container">
+              <img
+                src={product.src}
+                alt={product.name}
+                className="productImg"
+              />
+            </div>
+            <div className="name-container">
+              <p className="productName">{product.name}</p>
+            </div>
           </Link>
         ) : (
-          <a href={product.linkToWebsite}>
-            <img src={product.src} alt={product.name} className="productImg" />
-            <p className="productName">{product.name}</p>
+          <a href={product.linkToWebsite} className="linkToWebsite">
+            <div className="img-container">
+              <img
+                src={product.src}
+                alt={product.name}
+                className="productImg"
+              />
+            </div>
+            <div className="name-container">
+              <p className="productName">{product.name}</p>
+            </div>
           </a>
         )}
       </li>
